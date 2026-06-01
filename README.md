@@ -19,4 +19,5 @@ Screenshots
 <img width="1380" height="632" alt="Screenshot 2026-06-01 183804" src="https://github.com/user-attachments/assets/001fd7bf-98a3-4ffb-9f0e-4697bb4e2a75" />
 <img width="1875" height="933" alt="Screenshot 2026-06-01 183746" src="https://github.com/user-attachments/assets/3f21308a-dd0a-4eee-9b26-3fc3c754f040" />
 
-
+## Author 
+Abed Fateh
