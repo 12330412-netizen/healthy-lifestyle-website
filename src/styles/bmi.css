@@ -1,0 +1,132 @@
+*{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+body{
+    font-family:'Poppins', sans-serif;
+    background:#f4fff6;
+}
+
+.bmi-hero{
+    background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1470&auto=format&fit=crop');
+    background-size:cover;
+    background-position:center;
+    text-align:center;
+    color:white;
+    padding:100px 20px;
+}
+.bmi-hero h1{
+            font-size:60px;
+            font-weight:700;
+        }
+
+        .bmi-hero p{
+            margin-top:15px;
+            font-size:18px;
+        }
+
+
+.bmi-section{
+    padding:80px 0;
+}
+
+.bmi-card{
+            background:white;
+            border-radius:25px;
+            padding:40px;
+            box-shadow:0 10px 25px rgba(0,0,0,0.08);
+        }
+
+        .bmi-title{
+            text-align:center;
+            margin-bottom:35px;
+        }
+
+        .bmi-title h2{
+            color:#2e7d32;
+            font-weight:700;
+            font-size:40px;
+        }
+.table{
+            overflow:hidden;
+            border-radius:20px;
+        }
+
+        .table thead{
+            background:#4caf50;
+            color:white;
+        }
+
+        .table th{
+            padding:20px;
+            text-align:center;
+            font-size:18px;
+        }
+
+        .table td{
+            padding:18px;
+            text-align:center;
+            vertical-align:middle;
+            font-size:16px;
+        }
+
+        .table tbody tr:hover{
+            background:#f5fff7;
+            transition:0.3s;
+        }
+
+
+.underweight{
+            color:#ff9800;
+            font-weight:600;
+        }
+
+        .normal{
+            color:#4caf50;
+            font-weight:600;
+        }
+
+        .overweight{
+            color:#ff5722;
+            font-weight:600;
+        }
+
+        .obese{
+            color:#d32f2f;
+            font-weight:600;
+        }
+
+        .bmi-info-box{
+            margin-top:40px;
+            background:#f5fff7;
+            padding:30px;
+            border-radius:20px;
+            text-align:center;
+        }
+
+        .bmi-info-box h3{
+            color:#2e7d32;
+            margin-bottom:15px;
+            font-weight:700;
+        }
+
+        .bmi-info-box p{
+            color:#555;
+            font-size:17px;
+        }
+
+        footer{
+            background:#111;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:60px;
+        }
+.container{
+    width:90%;
+    margin:auto;
+}

@@ -1,0 +1,99 @@
+body{
+    font-family:'Poppins', sans-serif;
+    background:#f4fff6;
+}
+
+.diet-hero{
+    background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=1470&auto=format&fit=crop');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:100px 20px;
+}
+ .diet-hero h1{
+            font-size:60px;
+            font-weight:700;
+        }
+
+        .diet-hero p{
+            font-size:18px;
+            margin-top:15px;
+        }
+.diet-section{
+    padding:80px 0;
+}
+
+.diet-card{
+            border:none;
+            border-radius:25px;
+            overflow:hidden;
+            transition:0.3s;
+            box-shadow:0 10px 30px rgba(0,0,0,0.1);
+            height:100%;
+}
+.diet-card:hover{
+            transform:translateY(-10px);
+        }
+.diet-card .card-header{
+            background:#4caf50;
+            color:white;
+            text-align:center;
+            padding:20px;
+            font-size:24px;
+            font-weight:600;
+}
+
+.diet-card .card-body{
+            padding:30px;
+        }
+
+        .diet-card ul{
+            list-style:none;
+            padding:0;
+        }
+
+        .diet-card ul li{
+            padding:12px 0;
+            border-bottom:1px solid #eee;
+            color:#555;
+        }
+
+        .diet-card ul li:last-child{
+            border:none;
+        }
+
+        .tips-section{
+            background:white;
+            padding:60px 30px;
+            border-radius:25px;
+            box-shadow:0 10px 30px rgba(0,0,0,0.08);
+        }
+
+        .tips-section h2{
+            color:#2e7d32;
+            font-weight:700;
+            margin-bottom:20px;
+        }
+
+        .tip-box{
+            background:#f5fff7;
+            padding:20px;
+            border-radius:15px;
+            margin-bottom:15px;
+            transition:0.3s;
+        }
+
+        .tip-box:hover{
+            transform:scale(1.02);
+        }
+
+        footer{
+            background:#111;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:80px;
+        }

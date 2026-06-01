@@ -1,0 +1,99 @@
+*{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+body{
+    font-family:'Poppins', sans-serif;
+    background:#f4fff6;
+}
+
+.cal-hero{
+    background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1498837167922-ddd27525d352?q=80&w=1470&auto=format&fit=crop');
+    background-size:cover;
+    background-position:center;
+    text-align:center;
+    color:white;
+    padding:100px 20px;
+}
+        .cal-hero h1{
+            font-size:60px;
+            font-weight:700;
+        }
+
+        .cal-hero p{
+            margin-top:15px;
+            font-size:18px;
+        }
+.calorie-section{
+            padding:80px 0;
+        }
+
+.food-card{
+            border:none;
+            border-radius:25px;
+            overflow:hidden;
+            text-align:center;
+            transition:0.3s;
+            box-shadow:0 10px 25px rgba(0,0,0,0.08);
+            height:100%;
+}
+.food-card:hover{
+            transform:translateY(-10px);
+        }
+
+        .food-card .card-body{
+            padding:35px 25px;
+        }
+.food-icon{
+    font-size:60px;
+    margin-bottom:15px;
+}
+.food-card h3{
+            color:#2e7d32;
+            margin-bottom:15px;
+            font-weight:600;
+        }
+
+        .food-card p{
+            color:#666;
+            margin:8px 0;
+        }
+.calories{
+            font-size:22px;
+            font-weight:700;
+            color:#4caf50;
+            margin-top:15px;
+        }
+
+        .tip-section{
+            padding-bottom:80px;
+        }
+
+        .tip-box{
+            background:white;
+            padding:40px;
+            border-radius:25px;
+            text-align:center;
+            box-shadow:0 10px 25px rgba(0,0,0,0.08);
+        }
+
+        .tip-box h2{
+            color:#2e7d32;
+            margin-bottom:20px;
+            font-weight:700;
+        }
+
+        .tip-box p{
+            color:#555;
+            font-size:18px;
+        }
+
+        footer{
+            background:#111;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
