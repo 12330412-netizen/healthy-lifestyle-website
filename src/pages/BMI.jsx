@@ -1,6 +1,24 @@
 import "../styles/bmi.css";
-
+import { useState } from "react";
 function BMI() {
+  const [weight, setWeight] = useState("");
+
+    const [height, setHeight] = useState("");
+
+    const [bmi, setBmi] = useState(null);
+
+    const calculateBMI = () => {
+
+        if (weight > 0 && height > 0) {
+
+            const result = weight / ((height / 100) ** 2);
+
+            setBmi(result.toFixed(2));
+
+        }
+
+    }
+  
   return (
     <>
       <section className="bmi-hero">
@@ -69,6 +87,71 @@ function BMI() {
           </div>
         </div>
       </section>
+      <section className="bmi-hero">
+
+         <div className="container">
+
+            <h1>BMI Calculator</h1>
+
+               <p>Calculate your Body Mass Index</p>
+
+                </div>
+
+            </section>
+
+            <section className="bmi-section">
+
+                <div className="container">
+
+                    <div className="bmi-card">
+
+                        <h2>BMI Calculator</h2>
+
+                        <label>Weight (kg)</label>
+
+                        <input
+
+                            type="number"
+
+                            value={weight}
+
+                            onChange={(e) => setWeight(e.target.value)}
+
+                            placeholder="Enter weight"
+
+                        />
+
+                        <label>Height (cm)</label>
+
+                        <input
+
+                            type="number"
+
+                            value={height}
+
+                            onChange={(e) => setHeight(e.target.value)}
+
+                            placeholder="Enter height"
+
+                        />
+
+                        <button onClick={calculateBMI}>
+
+                            Calculate BMI
+
+                        </button>
+
+                        {bmi !== null && (
+
+                            <h3>Your BMI is: {bmi}</h3>
+
+                        )}
+
+                    </div>
+
+                </div>
+
+            </section>
 
       <footer>
         <p>© 2026 Healthy Lifestyle Website</p>
@@ -77,4 +160,5 @@ function BMI() {
   );
 }
 
+export default BMI;
 export default BMI;
